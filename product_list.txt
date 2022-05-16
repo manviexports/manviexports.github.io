@@ -1,0 +1,24 @@
+
+/////////////////////////////////////////////////
+
+Men's:      Men's Wallet
+            Laptop Bag
+            Briefcase
+            Back-pack
+            Cross-body Bag
+            Leather Belt
+            Shaving Kit
+
+-------------------------------------------------
+
+Women's:    Women's Wallets
+            Sling Bags
+            Fashion Bags
+            Laptop Tote's
+
+-------------------------------------------------
+
+Unisex:     Travel Bags
+            Key Purse
+
+/////////////////////////////////////////////////

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Manvi Exports</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/css/style.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/x-icon" href="/bg/favicon/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Antic+Didone&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet"> 
+</head>
+<body onload="init()">
+    <div class="whatsapp-cont">
+        <a target="_blank" href="https://api.whatsapp.com/send?phone=919830248748">
+            <span class="material-icons-round md-48">whatsapp</span>
+        </a>
+    </div>
+    <div class="credits-cont" id="cred-cont">
+        <div class="credits-box">
+            <div class="credits-close-btn">
+                <a href="javascript:void(0)" onclick="closeCreds()">⮾</a>
+            </div>
+            <div class="credits-txt-box-1">WEBSITE DESIGN & BUILD</div>
+            <div class="credits-txt-box-2">
+                <a href="#">Aniket Chanda</a>
+            </div>
+            <div class="credits-txt-box-1">EDITORIAL PHOTOGRAPHY</div>
+            <div class="credits-txt-box-2">
+                <a href="#">John Doe</a>
+            </div>
+            <div class="credits-txt-box-1">INSPIRATION</div>
+            <div class="credits-txt-box-2">
+                <a href="#">Jane Doe</a>
+            </div>
+        </div>
+    </div>
+    <main id="main">
+        <header>
+            <nav id="nav1">
+                <div class="nav-sec-1">
+                    <a href="/index.html">Home</a>
+                    <a href="/pages/about.html">About</a>
+                    <a href="/pages/pd/products.html">Products</a>
+                </div>
+                <div class="nav-sec-2">
+                    <a class="logo" href="/pages/about.html">MANVI EXPORTS</a>
+                </div>
+                <div class="nav-sec-3">
+                    <a href="#Partners">Partners</a>
+                    <a href="/pages/contact.html">Contact</a>
+                    <a href="https://api.whatsapp.com/send?phone=919830248748">Whatsapp</a>
+                    <div class="nav-sec-3-borgar">
+                        <a href="javascript:void(0);" onclick="hamburgFunc()">☰</a>
+                    </div>
+                </div>
+            </nav>
+            <nav id="nav2">
+                <a href="/index.html">Home</a>
+                <a href="/pages/about.html">About</a>
+                <a href="/pages/pd/products.html">Products</a>
+                <a href="/pages/gallery.html">Partners</a>
+                <a href="/pages/contact.html">Contact</a>
+                <a href="https://api.whatsapp.com/send?phone=919830248748">Whatsapp</a>
+            </nav>
+        </header>
+
+        <section class="contact-form">
+            <div class="contact-form-cont">
+                <div class="form-cont">
+                    <!-- <form id="formid" method="POST" action="https://script.google.com/macros/s/AKfycbyV_1GkBtfOvJ50ncOgmt5NZYtQ0UOQOemv6TAFpWIGL3gpXQpvu4030IGdn09T7WHwYA/exec" target="dummyframe">
+                        <input name="Name" type="text" id="Name" placeholder="*Name..." required>
+                        <input name="Email" type="email" id="Email"  placeholder="*Email..." required>
+                        <input name="Phone" type="tel" id="Phone"  placeholder="Phone...">
+                        <input name="Company" type="text" id="Company"  placeholder="Company...">
+                        <textarea name="Message"  id="Message" cols="10" rows="10" placeholder="Your message..." style="resize: none;"></textarea>
+                        <div class="submit-cont">
+                            <input type="submit" value="Contact Us" id="contact-submit" onclick="submitAlert()">
+                        </div>
+                    </form> -->
+
+                    <form action="https://gmail.us14.list-manage.com/subscribe/post" method="POST" id="formid">
+                        <input type="hidden" name="u" value="762e8045974e94e6391be073b">
+                        <input type="hidden" name="id" value="07b61a76c9">
+                        <div class="group">
+                            <input placeholder="Name" type="text" name="MERGE1" id="MERGE1" size="25" value="">    
+                        </div>
+                        <div class="group">
+                            <input placeholder="Email" type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="25" value="">    
+                        </div>
+                        <div class="group">
+                            <input placeholder="Phone" type="text" name="MERGE3" id="MERGE3" size="25" value="">    
+                        </div>
+                        <div class="group">
+                            <input placeholder="Company" type="text" name="MERGE2" id="MERGE2" size="25" value="">    
+                        </div>
+                        <textarea placeholder="Your Message" name="MERGE4" id="MERGE4" cols="30" rows="10" style="resize: none;"></textarea>
+                        <input onclick="contactSuccess()" type="submit" class="formEmailButton" name="submit" value="Contact us">
+                    </form>
+                </div>
+                <div class="map-cont">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.756973443689!2d88.40519271503781!3d22.513299585213314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02739c7929038f%3A0x238caded65d48269!2sManvi%20Exports!5e0!3m2!1sen!2sin!4v1645765533421!5m2!1sen!2sin" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy">
+                    </iframe>
+                    <div class="address">
+                        <div class="address-txt-box">
+                            <span style="font-weight: 500;">Office Address:</span>
+                            <br>
+                            <br>
+                            40, Syed Amir Ali Ave, Park Circus, Ballygunge, Kolkata, West Bengal 700017
+                            <br>
+                            <br>
+                            <span style="font-weight: 500;">Factory Address:</span>
+                            <br>
+                            <br>
+                            P-25, Phase 2, Kasba Industrial Estate, Sector J, East Kolkata Twp, Kolkata, West Bengal 700107
+                            <br>
+                            <br>
+                            <span style="font-weight: 500;">Contact:</span>
+                            <br>
+                            <br>
+                            +91 6909040583 / 8794657559
+                            <br>
+                            <br>
+                            manvijairath@manviexports.com
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+
+        <footer>
+            <div class="footer-cont">
+                <div class="footer-header"></div>
+                <div class="footer-grid-cont">
+                    <div class="footer-grid-item">
+                        <div class="footer-txt-box-1">
+                            <a href="./index.html">Home</a>
+                            <a href="./pages/about.html">About</a>
+                            <a href="./pages/pd/products.html">Products</a>
+                        </div>
+                        <div class="footer-txt-box-2">© 2022 Manvi Exports. All rights reserved</div>
+                    </div>
+                    <div class="footer-grid-item">
+                        <div class="footer-txt-box-1">
+                            <a href="./pages/contact.html">Contact</a>
+                            <a href="./index.html">Partners</a>
+                            
+                        </div>
+                        <div class="footer-txt-box-2">
+                            <span id="web-creds" onclick="javascript:void(0);">Website Credits</span>
+                        </div>
+                    </div>
+                    <div class="footer-grid-item">
+                        <div class="newsletter-txt-box">
+                            <div class="newsletter-txt-header">Keep in touch</div>
+                            <div class="newsletter-txt-body">Sign up for our newsletter to get the latest news, announcements, and special offers</div>
+                            <div class="form-cont-2">
+                                <form id="newsLetter" method="POST" action="https://script.google.com/macros/s/AKfycbxxfVbduaZNJdQImxznWZzd2-dbu1OjrAQNsNXmVug-yPZB3MsrFOusDNlHln8LS4dr/exec">
+                                    <input id="email-input" name="Email" type="email" placeholder="Enter your email address" required><input type="submit" value="Sign up" id="signup-btn">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src='/js/script.js'></script>
+    <!-- <script>
+        window.history.replaceState('','','/contact');
+    </script> -->
+</body>
+</html>
