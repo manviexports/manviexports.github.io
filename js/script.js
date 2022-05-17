@@ -249,28 +249,28 @@ window.addEventListener("load", function() {
   });
 });
 
-var wal1 = document.getElementById("mensWallets1");
-var wal2 = document.getElementById("mensWallets2");
-var wal3 = document.getElementById("mensWallets3");
-var wal4 = document.getElementById("mensWallets4");
-var wal5 = document.getElementById("mensWallets5");
-var wal6 = document.getElementById("mensWallets6");
+const wal1 = document.getElementById("mensWallets1");
+const wal2 = document.getElementById("mensWallets2");
+const wal3 = document.getElementById("mensWallets3");
+const wal4 = document.getElementById("mensWallets4");
+const wal5 = document.getElementById("mensWallets5");
+const wal6 = document.getElementById("mensWallets6");
 
-var lap = document.getElementById("laptopBag");
-var bri = document.getElementById("briefCase");
-var bac = document.getElementById("backPack");
-var cro = document.getElementById("crossBody");
-var bel = document.getElementById("leatherBelt");
-var sha = document.getElementById("shavingKit");
+const lap = document.getElementById("laptopBag");
+const bri = document.getElementById("briefCase");
+const bac = document.getElementById("backPack");
+const cro = document.getElementById("crossBody");
+const bel = document.getElementById("leatherBelt");
+const sha = document.getElementById("shavingKit");
 
-var wom = document.getElementById("womensWallet");
-var sli = document.getElementById("slingBag");
-var fas = document.getElementById("fashionBag");
-var tot = document.getElementById("laptopTote");
+const wom = document.getElementById("womensWallet");
+const sli = document.getElementById("slingBag");
+const fas = document.getElementById("fashionBag");
+const tot = document.getElementById("laptopTote");
 
 
-var tra = document.getElementById("travelBag");
-var key = document.getElementById("keyPurse");
+const tra = document.getElementById("travelBag");
+const key = document.getElementById("keyPurse");
 
 
 let menuBtn = document.querySelectorAll('.nav-item')
